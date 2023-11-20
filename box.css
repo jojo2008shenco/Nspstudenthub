@@ -1,0 +1,221 @@
+.pls{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.box-container{
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.box{
+    width: 269px;
+    padding: 15px;
+    min-height: 430px;
+
+}
+
+.box1{
+    background-color:#2b70ba;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+
+.box2{
+    background-color: hsl(0deg 0% 0% / 58%);
+  
+}
+
+
+.box3{
+    background-color: hsl(200deg 33% 12%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.contentsss{
+    padding: 10px;
+
+}
+
+.pls h1{
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin: 20px 0;
+}
+
+
+.pls p{
+    color: ghostwhite;
+    font-family: 'sans-serif' , cursive;
+    line-height: 1.8;
+
+}
+
+
+.pls .btns{
+
+    margin: 60px 0;
+    padding: 15px 40px;
+    border: 0;
+    border-radius: 30px;
+    outline: none;
+    background-color: #FFF;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+
+.btns:hover{
+    background-color: transparent;
+    border: 2px solid #FFF;
+    color: #fff;
+    transition: 0.4s;
+}
+
+
+p{
+    color: #2b70ba;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+a.aaa{
+    color: white;
+}
+
+
+
+article{
+    width: 100%;
+}
+main{
+	max-width:100% ;
+	width: 1200px;
+	margin: 80px auto;
+	padding: 0 40px;
+	box-sizing: border-box;
+}
+article h2 {
+    color: rgb(255 255 255);
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 7px black;
+    text-decoration: underline;
+    padding: 20px;
+    /* background: #333; */
+    /* width: 100%; */
+    margin-bottom: 20px;
+    list-style-type: none;
+    background-color: #333;
+    text-decoration: none;
+}
+
+article p{
+	line-height: 2em;
+	color: #4b4b4b;
+    padding: 0;
+    font-size: 20px;
+    line-break: normal;
+}
+
+.imagessss{
+	text-align: center;
+	margin: 80px 0;
+	white-space: nowrap;
+}
+
+.imagessss li{
+	display: inline-block;
+	width: 40%;
+	margin: 20px 5%;
+}
+.imagessss li img{
+	max-width: 100%;
+}
+
+article p::first-line{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+@media screen and (max-width: 700px){
+    .imagessss li{
+        width: 100%;
+        margin: 20px auto;
+        display: block;
+    }
+
+    article h2{
+        font-size: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*contact page*/
+
+
+
+
+
+
+
+
+
+
+
+/*Ending*/
+
+
+
+
+
+
+
+
+
+

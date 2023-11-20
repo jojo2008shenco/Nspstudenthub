@@ -1,0 +1,103 @@
+
+*{
+    box-sizing: border-box;
+}
+
+ .num{
+    height: 50;
+}
+
+.cont {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 90px;
+    margin-top: 10px;
+}
+
+.content-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+
+}
+
+.content-section .card{
+    flex: 1;
+    margin: 20px 20px;
+  
+
+
+}
+
+.content-section .card img{
+    width: 90px;
+    height: auto;
+}
+.content-section .card h2{
+    margin: 15px 0px;
+    font-size: 20px;
+    color: #1662a1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.content-section .card p{
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    color: rgb(73, 73, 73)                              ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .content-section{
+        flex-direction: column;
+    }
+    .cont{
+        background-color: black;
+    }
+
+    .content-section .card h2{
+        color: white;
+    }
+    .content-section .card p{
+        color: white;
+    }
+
+    
+}
+

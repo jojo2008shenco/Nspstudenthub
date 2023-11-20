@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    height: 100vh;
+    width: 100%;
+    background: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+#consentBox{
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+
+}
+
+#consentBox.hide{
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.8);
+    transition: all 0.3s ease;
+}
+
+::selection{
+    background: #229a0f;
+    color: #fff;
+}
+
+
+
+
+
+#consentContent p{
+    color: #858585;
+    margin: 10px 0 20px 0;
+
+}
+
+
+.consentButton,
+.rejectButton{
+    padding: 12px 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+#consentHeader{
+    background: none;
+}
+
+    #consentBox img{
+        max-width: 90px;
+    }
+
+    #consentHeader{
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 10px;
+        color: #099c2c;
+    }
+
+    .rejectButton{
+        color: #111211;
+        background: transparent;
+        border: 2px solid#099c2c;
+    }
+
+    .consentButton{
+        background: #2a910b;
+        margin-right: 10px;
+    }
+
+    #consentContent .buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+
+
